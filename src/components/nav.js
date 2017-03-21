@@ -33,17 +33,17 @@ const Nav = () => (
     <Dropdown text="学习申请" pointing className='link item'>
     <Dropdown.Menu>
     <Dropdown.Item>
-    <NavLink to="/study_system">
+    <NavLink to="/study_method">
     学习方法
     </NavLink>
     </Dropdown.Item>
     <Dropdown.Item>
-    <NavLink to="/apply">
+    <NavLink to="/study_upgrade">
     课程进阶
     </NavLink>
     </Dropdown.Item>
     <Dropdown.Item>
-    <NavLink to="/study_flow">
+    <NavLink to="/apply">
     课程申请
     </NavLink>
     </Dropdown.Item>

@@ -30,8 +30,18 @@ const whens = [
 
 
 const Apply =  () => (
-  <Segment vertical>
-  <Menu vertical>
+    <Segment vertical>
+    <div>
+    免费体验
+• 外教1对1 • 水平测试
+申请课程
+• 选择课程 • 确认付款
+开始上课
+• 设定目标 • 针对学习
+课后反馈
+• 纠正邮件 • 复习录音
+    </div>
+    <Menu vertical>
   <Dropdown text='课程类型' selection  options={types} />
   <Dropdown text='套餐类型' selection options={courses} />
   <Dropdown text='每周次数' selection options={freq} />
