@@ -7,19 +7,27 @@
     <meta name="description" content="Google's material design UI components built with React.">
     <link rel="stylesheet" href="//cdn.bootcss.com/semantic-ui/2.2.9/semantic.min.css"></link>
     <link rel="stylesheet" href="/react-big-calendar.css"></link>
+    <style type="text/css">
 
+     .center-in-center{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+     }
+    </style>
     <!-- Use minimum-scale=1 to enable GPU rasterization -->
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+        name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
     >
     <link rel="stylesheet" type="text/css" href="/main.css">
   </head>
 
   <body>
     <div id="app">
+      <div class="center-in-center">
         <img src="/images/loading.gif" />
-                  页面载入中。。。
+      </div>
     </div>
 
     <!-- This script adds the Roboto font to our project. For more detail go to this site:  http://www.google.com/fonts#UsePlace:use/Collection:Roboto:400,300,500 -->

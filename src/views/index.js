@@ -4,7 +4,7 @@ import { Button, Grid, Segment } from 'semantic-ui-react';
 import LoginForm from '../components/login_form';
 
 const Part1 = () => (
-  <Segment className="k_block ">
+  <Segment className="k_block">
   <div>宣传画面 免费测试 主打北美少儿英语  会员申请/登录</div>
   <Grid stackable>
   <Grid.Column width={12}>
